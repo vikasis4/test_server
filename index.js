@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 
-app.get('/pay', (req, res) => {
+app.post('/pay', (req, res) => {
     console.log(req.body);
 })
 app.get('/', (req, res) => {
