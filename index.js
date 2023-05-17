@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 app.get('/test', (req, res) => {
     res.json({status:'working'})
 })
-
+console.log('Hi');
 app.listen(9000, ()=>{
     console.log('Servr is running on PORT 9000');
 })
